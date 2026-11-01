@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Detalhes da Ficha Técnica</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>Sistema de Fichas Técnicas</h1>
+        <p>Gerenciamento de produtos e fichas técnicas</p>
+    </header>
+
+    <main class="container">
+
+        <section class="painel">
+
+            <div class="painel-topo">
+                <h2>Detalhes da Ficha Técnica</h2>
+            </div>
+
+            <div class="informacoes-produto">
+
+                <div class="grupo-campo">
+                    <label for="detalheNome">Nome do produto</label>
+                    <input
+                        type="text"
+                        id="detalheNome"
+                        readonly
+                    >
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="detalheCategoria">Categoria</label>
+                    <input
+                        type="text"
+                        id="detalheCategoria"
+                        readonly
+                    >
+                </div>
+
+            </div>
+
+            <h3 class="subtitulo">Informações Técnicas</h3>
+
+            <div class="tabela-responsiva">
+                <table id="tabelaFichaTecnica">
+
+                    <thead>
+                        <tr>
+                            <th>Composição do Tecido</th>
+                            <th>Tipo de Costura</th>
+                            <th>Processo de Fabricação</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td colspan="3">
+                                Nenhuma informação técnica cadastrada.
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <p id="mensagemDetalhes" role="status" aria-live="polite"></p>
+
+            <div class="acoes-formulario">
+
+                <a href="index.html" class="botao botao-cancelar">
+                    Voltar
+                </a>
+
+                <a
+                    href="cadastro-ficha.html"
+                    id="botaoAdicionarFicha"
+                    class="botao botao-adicionar"
+                >
+                    Adicionar
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto Integrador - Senac | Sistema de Fichas Técnicas</p>
+    </footer>
+
+</body>
+</html>

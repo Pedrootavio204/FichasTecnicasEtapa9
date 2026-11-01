@@ -1,0 +1,7 @@
+com\senac\fichastecnicas\controller\FichaTecnicaController.class
+com\senac\fichastecnicas\controller\ProdutoController.class
+com\senac\fichastecnicas\repository\ProdutoRepository.class
+com\senac\fichastecnicas\model\Produto.class
+com\senac\fichastecnicas\Fichastecnicasetapa9Application.class
+com\senac\fichastecnicas\model\FichaTecnica.class
+com\senac\fichastecnicas\repository\FichaTecnicaRepository.class
